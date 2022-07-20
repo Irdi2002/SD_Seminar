@@ -114,7 +114,7 @@ table 50101 "CSD Seminar"
 
             SeminarSetup.get;
             SeminarSetup.TestField("Seminar Nos.");
-            NoSeriesMgt.InitSeries(SeminarSetup."Seminar Nos.", xRec."No. Series", 0D, "No. Series");
+            NoSeriesMgt.InitSeries(SeminarSetup."Seminar Nos.", xRec."No. Series", 0D, "No.", "No. Series");
 
         end;
     end;
