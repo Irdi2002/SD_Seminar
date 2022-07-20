@@ -86,8 +86,6 @@ table 50101 "CSD Seminar"
             TableRelation = "No. Series";
         }
 
-
-
     }
 
     keys
