@@ -196,8 +196,5 @@ table 50101 "CSD Seminar"
 
         end;
 
-
-
-
     end;
 }
