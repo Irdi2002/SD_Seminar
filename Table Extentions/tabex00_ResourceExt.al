@@ -39,6 +39,10 @@ tableextension 50100 "CSD ResourceExt" extends Resource
             Caption = 'Quantity Per Day';
 
         }
+        // field(50104; "CSD Seminar Type"; Enum)
+
+
+
     }
 
 
