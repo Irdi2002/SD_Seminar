@@ -57,7 +57,7 @@ table 50101 "CSD Seminar"
         {
             Caption = 'Comment';
             Editable = false;
-            //FieldClass = FlowField;
+            FieldClass = FlowField;
             //CalcFormula = exist("Seminar Commet Line" where ("Table Name" = const("Seminar"),"No."= Field("No.")));
 
 
