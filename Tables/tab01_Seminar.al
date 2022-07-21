@@ -22,9 +22,9 @@ table 50101 "CSD Seminar"
 
         }
 
-        field(40; "Maximum Participants"; Integer)
+        field(40; "Minimum Participants"; Integer)
         {
-            Caption = 'Maximum Participants';
+            Caption = 'Minimum Participants';
 
         }
 
@@ -139,43 +139,43 @@ table 50101 "CSD Seminar"
         "Last Date Modified" := Today;
     end;
 
-    trigger OnValidate();
-    begin
+    /*   trigger OnValidate();
+       begin
 
-        if "No." <> xRec."No." then begin
+           if "No." <> xRec."No." then begin
 
-            SeminarSetup.GET;
-            NoSeriesMgt.TestManual(SeminarSetup."Seminar Nos.");
-            "No. Series" := '';
+               SeminarSetup.GET;
+               NoSeriesMgt.TestManual(SeminarSetup."Seminar Nos.");
+               "No. Series" := '';
 
-        end;
+           end;
 
-    end;
-
-
-    trigger OnValidate();
-    begin
-        if ("Search Name" = UpperCase(xRec.Name)) or ("Search Name" = '') then
-            "Search Name" := Name;
-
-    end;
-
-    trigger OnValidate();
-    begin
-        if (xRec."Gen. Prod. Posting Group" <> "Gen. Prod. Posting Group") then begin
-
-            if GenProdPostingGroup.ValidateVatProdPostingGroup(GenProdPostingGroup, "Gen. Prod. Posting Group") then
-                Validate("VAT Prod. Posting Group", GenProdPostingGroup."Def. VAT Prod. Posting Group");
-
-        end;
+       end;
 
 
-    end;
+       trigger OnValidate();
+       begin
+           if ("Search Name" = UpperCase(xRec.Name)) or ("Search Name" = '') then
+               "Search Name" := Name;
+
+       end;
+
+       trigger OnValidate();
+       begin
+           if (xRec."Gen. Prod. Posting Group" <> "Gen. Prod. Posting Group") then begin
+
+               if GenProdPostingGroup.ValidateVatProdPostingGroup(GenProdPostingGroup, "Gen. Prod. Posting Group") then
+                   Validate("VAT Prod. Posting Group", GenProdPostingGroup."Def. VAT Prod. Posting Group");
+
+           end;
 
 
+       end;
 
 
 
+
+   */
 
 
     procedure AssistEdit(): Boolean
