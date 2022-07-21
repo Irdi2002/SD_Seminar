@@ -142,7 +142,7 @@ table 50101 "CSD Seminar"
         "Last Date Modified" := Today;
     end;
 
-    /*   trigger OnValidate();
+    /*  trigger OnValidate();
        begin
 
            if "No." <> xRec."No." then begin
