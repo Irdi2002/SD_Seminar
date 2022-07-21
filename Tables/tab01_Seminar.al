@@ -1,6 +1,8 @@
 table 50101 "CSD Seminar"
 {
     Caption = 'Seminar';
+    LookupPageID = "CSD Seminar List";
+    DrillDownPageId = "CSD Seminar List";
 
     fields
     {
