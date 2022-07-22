@@ -22,32 +22,32 @@ page 50101 "CSD Seminar"
 
                 field(Name; Rec.Name)
                 {
-
+                    ApplicationArea = All;
                 }
 
                 field("Search Name"; Rec."Search Name")
                 {
-
+                    ApplicationArea = All;
                 }
 
                 field("Seminar Duration"; Rec."Seminar Duration")
                 {
-
+                    ApplicationArea = All;
                 }
 
                 field("Minimum Participants"; Rec."Minimum Participants")
                 {
-
+                    ApplicationArea = All;
                 }
 
                 field("Maximum Participants"; Rec."Maximum Participants")
                 {
-
+                    ApplicationArea = All;
                 }
 
                 field(Blocked; Rec.Blocked)
                 {
-
+                    ApplicationArea = All;
                 }
             }
 
@@ -55,17 +55,17 @@ page 50101 "CSD Seminar"
             {
                 field("Gen. Prod. Posting Group"; Rec."Gen. Prod. Posting Group")
                 {
-
+                    ApplicationArea = All;
                 }
 
                 field("VAT Prod. Posting Group"; Rec."VAT Prod. Posting Group")
                 {
-
+                    ApplicationArea = All;
                 }
 
                 field("Seminar Price"; Rec."Seminar Price")
                 {
-
+                    ApplicationArea = All;
                 }
             }
         }
