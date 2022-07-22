@@ -2,7 +2,7 @@
   "id": "8c3ce56d-ae37-45f4-959b-7ace193a5bc7",
   "name": "SD Seminar",
   "publisher": "Default publisher",
-  "version": "1.0.0.0",
+  "version": "1.0.0.1",
   "brief": "",
   "description": "",
   "privacyStatement": "",
@@ -13,7 +13,7 @@
   "dependencies": [],
   "screenshots": [],
   "platform": "1.0.0.0",
-  "application": "20.0.0.0",
+  "application": "19.0.0.0",
   "idRanges": [
     {
       "from": 50100,
@@ -25,5 +25,5 @@
     "allowDownloadingSource": false,
     "includeSourceInSymbolFile": false
   },
-  "runtime": "9.0"
+  "runtime": "8.0"
 }

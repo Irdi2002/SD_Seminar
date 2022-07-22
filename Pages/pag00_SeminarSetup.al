@@ -6,6 +6,7 @@ page 50100 "CSD Seminar Setup"
     PageType = Card;
     UsageCategory = Administration;
     SourceTable = "CSD Seminar Setup";
+    ApplicationArea = All;
 
     layout
     {

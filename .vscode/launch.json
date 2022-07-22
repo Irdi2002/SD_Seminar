@@ -6,16 +6,15 @@
             "request": "launch",
             "type": "al",
             "environmentType": "OnPrem",
-            "server": "http://localhost:8080",
-            "serverInstance": "BC200",
-            "authentication": "Windows",
+            "server": "http://10.55.52.100/",
+            "serverInstance": "BC190",
+            "authentication": "UserPassword",
+            "port": 7049,
             "startupObjectId": 22,
             "startupObjectType": "Page",
             "breakOnError": true,
-            "launchBrowser": true,
-            "enableLongRunningSqlStatements": true,
-            "enableSqlInformationDebugger": true,
-            "tenant": "default"
+            "launchBrowser": true
+            
         }
     ]
 }

@@ -3,7 +3,8 @@ page 50101 "CSD Seminar"
     PageType = Card;
     SourceTable = "CSD Seminar";
     Caption = 'Seminar Card';
-
+    ApplicationArea = All;
+    UsageCategory = Administration;
     layout
     {
         area(Content)

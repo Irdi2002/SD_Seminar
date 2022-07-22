@@ -6,7 +6,7 @@ page 50102 "CSD Seminar List"
     UsageCategory = Lists;
     SourceTable = "CSD Seminar";
     CardPageId = 50101;
-
+    ApplicationArea = All;
     layout
     {
         area(Content)
