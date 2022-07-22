@@ -13,28 +13,28 @@ page 50102 "CSD Seminar List"
         {
             group(Repeater)
             {
-                field("No."; "No.")
+                field("No."; Rec."No.")
                 {
 
                 }
 
-                field(Name; Name)
+                field(Name; Rec.Name)
                 {
 
                 }
-                field("Seminar Duration"; "Seminar Duration")
+                field("Seminar Duration"; Rec."Seminar Duration")
                 {
 
                 }
-                field("Seminar Price"; "Seminar Price")
+                field("Seminar Price"; Rec."Seminar Price")
                 {
 
                 }
-                field("Minimum Participants"; "Minimum Participants")
+                field("Minimum Participants"; Rec."Minimum Participants")
                 {
 
                 }
-                field("Maximum Participants"; "Maximum Participants")
+                field("Maximum Participants"; Rec."Maximum Participants")
                 {
 
                 }

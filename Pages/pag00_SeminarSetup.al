@@ -13,18 +13,18 @@ page 50100 "CSD Seminar Setup"
         {
             group(Numbering)
             {
-                field("Seminar Nos."; "Seminar Nos.")
+                field("Seminar Nos."; Rec."Seminar Nos.")
                 {
 
                 }
 
                 field("Seminar Registration Nos.";
-                "Seminar Registration Nos.")
+                Rec."Seminar Registration Nos.")
                 {
 
                 }
                 field("Posted Seminar Reg. Nos.";
-                "Posted Seminar Reg. Nos.")
+                Rec."Posted Seminar Reg. Nos.")
                 {
 
                 }
@@ -36,10 +36,10 @@ page 50100 "CSD Seminar Setup"
 
     trigger OnOpenPage();
     begin
-        if not get then begin
+        if not Rec.get then begin
 
-            init;
-            insert;
+            Rec.init;
+            Rec.insert;
         end
     end;
 

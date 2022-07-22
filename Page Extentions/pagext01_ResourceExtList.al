@@ -9,11 +9,11 @@ pageextension 50101 "CSD ResourceListExt" extends "Resource List"
         }
         addafter(Type)
         {
-            field("CSD Resource Type"; "CSD Resource Type")
+            field("CSD Resource Type"; Rec."CSD Resource Type")
             {
 
             }
-            field("CSD Maximum Participants"; "CSD Maximum Participants")
+            field("CSD Maximum Participants"; Rec."CSD Maximum Participants")
             {
                 Visible = ShowMaxField;
             }
@@ -26,8 +26,8 @@ pageextension 50101 "CSD ResourceListExt" extends "Resource List"
     trigger OnOpenPage();
 
     begin
-        ShowType := (GetFilter(Type) = '');
-        ShowMaxField := (GetFilter(Type) = format(Type::Machine));
+        ShowType := (Rec.GetFilter(Type) = '');
+        ShowMaxField := (Rec.GetFilter(Type) = format(Rec.Type::Machine));
     end;
 
 
