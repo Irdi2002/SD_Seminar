@@ -30,6 +30,12 @@ table 50101 "CSD Seminar"
         {
             Caption = 'Name';
 
+            trigger OnValidate();
+            begin
+                if ("Search Name" = UpperCase(xRec.Name)) or ("Search Name" = '') then
+                    "Search Name" := Name;
+
+            end;
         }
 
         field(30; "Seminar Duration"; Decimal)
@@ -54,12 +60,6 @@ table 50101 "CSD Seminar"
         {
             Caption = 'Search Name';
 
-            trigger OnValidate();
-            begin
-                if ("Search Name" = UpperCase(xRec.Name)) or ("Search Name" = '') then
-                    "Search Name" := Name;
-
-            end;
 
         }
 

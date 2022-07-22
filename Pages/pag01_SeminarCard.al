@@ -13,6 +13,7 @@ page 50101 "CSD Seminar"
             {
                 field("No."; Rec."No.")
                 {
+                    ApplicationArea = All;
                     AssistEdit = true;
                     trigger OnAssistEdit();
                     begin
