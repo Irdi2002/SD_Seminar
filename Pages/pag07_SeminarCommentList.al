@@ -13,7 +13,7 @@ page 50107 "CSD Seminar Comment List"
             {
                 field(Date; Rec.Date)
                 {
-
+                    ApplicationArea = All;
                 }
                 field(Code; Rec.Code)
                 {
@@ -21,7 +21,7 @@ page 50107 "CSD Seminar Comment List"
                 }
                 field(Comment; Rec.Comment)
                 {
-
+                    ApplicationArea = All;
                 }
             }
         }

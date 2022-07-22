@@ -15,28 +15,28 @@ page 50102 "CSD Seminar List"
             {
                 field("No."; Rec."No.")
                 {
-
+                    ApplicationArea = All;
                 }
 
                 field(Name; Rec.Name)
                 {
-
+                    ApplicationArea = All;
                 }
                 field("Seminar Duration"; Rec."Seminar Duration")
                 {
-
+                    ApplicationArea = All;
                 }
                 field("Seminar Price"; Rec."Seminar Price")
                 {
-
+                    ApplicationArea = All;
                 }
                 field("Minimum Participants"; Rec."Minimum Participants")
                 {
-
+                    ApplicationArea = All;
                 }
                 field("Maximum Participants"; Rec."Maximum Participants")
                 {
-
+                    ApplicationArea = All;
                 }
             }
         }
