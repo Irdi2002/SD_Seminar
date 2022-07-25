@@ -42,7 +42,7 @@ table 50111 "CSD Seminar Registration Line"
             begin
                 ContactBusinessRelation.Reset;
                 ContactBusinessRelation.SetRange("Link to Table", ContactBusinessRelation."Link to Table"::Customer);
-                ContactBusinessRelation.SetRange("No.", "Bill-to Customer No.");
+                ContactBusinessRelation.SetRange("No.", Rec."Bill-to Customer No.");
                 if ContactBusinessRelation.FindFirst then begin
                     Contact.SetRange("Company No.", ContactBusinessRelation."Contact No.");
                     if page.RunModal(page::"Contact List", Contact) = "Action"::LookupOK then
