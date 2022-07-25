@@ -4,7 +4,7 @@ enum 50100 "Table Name"
 
     value(0; " ")
     {
-        Caption = ' ';
+
     }
 
     value(1; "Seminar")
