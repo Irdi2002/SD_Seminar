@@ -15,40 +15,40 @@ page 50111 "CSD Seminar Reg. Subpage"
         {
             repeater(Group)
             {
-                field("Bill-to Customer No.";"Bill-to Customer No.")
+                field("Bill-to Customer No."; Rec."Bill-to Customer No.")
                 {
                 }
-                field("Participant Contact No.";"Participant Contact No.")
+                field("Participant Contact No."; Rec."Participant Contact No.")
                 {
                 }
-                field("Participant Name";"Participant Name")
+                field("Participant Name"; Rec."Participant Name")
                 {
                 }
-                field(Participated;Participated)
+                field(Participated; Rec.Participated)
                 {
                 }
-                field("Registration Date";"Registration Date")
+                field("Registration Date"; Rec."Registration Date")
                 {
                 }
-                field("Confirmation Date";"Confirmation Date")
+                field("Confirmation Date"; Rec."Confirmation Date")
                 {
                 }
-                field("To Invoice";"To Invoice")
+                field("To Invoice"; Rec."To Invoice")
                 {
                 }
-                field(Registered;Registered)
+                field(Registered; Rec.Registered)
                 {
                 }
-                field("Seminar Price";"Seminar Price")
+                field("Seminar Price"; Rec."Seminar Price")
                 {
                 }
-                field("Line Discount %";"Line Discount %")
+                field("Line Discount %"; Rec."Line Discount %")
                 {
                 }
-                field("Line Discount Amount";"Line Discount Amount")
+                field("Line Discount Amount"; Rec."Line Discount Amount")
                 {
                 }
-                field(Amount;Amount)
+                field(Amount; Rec.Amount)
                 {
                 }
             }

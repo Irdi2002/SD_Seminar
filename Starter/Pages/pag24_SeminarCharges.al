@@ -15,31 +15,31 @@ page 50124 "CSD Seminar Charges"
         {
             repeater(Group)
             {
-                field("No.";"No.")
+                field("No."; Rec."No.")
                 {
                 }
-                field(Description;Description)
+                field(Description; Rec.Description)
                 {
                 }
-                field(Quantity;Quantity)
+                field(Quantity; Rec.Quantity)
                 {
                 }
-                field("Unit of Measure Code";"Unit of Measure Code")
+                field("Unit of Measure Code"; Rec."Unit of Measure Code")
                 {
                 }
-                field("Bill-to Customer No.";"Bill-to Customer No.")
+                field("Bill-to Customer No."; Rec."Bill-to Customer No.")
                 {
                 }
-                field("Gen. Prod. Posting Group";"Gen. Prod. Posting Group")
+                field("Gen. Prod. Posting Group"; Rec."Gen. Prod. Posting Group")
                 {
                 }
-                field("Unit Price";"Unit Price")
+                field("Unit Price"; Rec."Unit Price")
                 {
                 }
-                field("Total Price";"Total Price")
+                field("Total Price"; Rec."Total Price")
                 {
                 }
-                field("To Invoice";"To Invoice")
+                field("To Invoice"; Rec."To Invoice")
                 {
                 }
             }

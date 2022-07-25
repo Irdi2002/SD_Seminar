@@ -9,7 +9,7 @@ page 50113 "CSD Seminar Registration List"
     Editable = false;
     PageType = List;
     SourceTable = "CSD Seminar Reg. Header";
-    UsageCategory=lists;
+    UsageCategory = lists;
 
     layout
     {
@@ -17,38 +17,38 @@ page 50113 "CSD Seminar Registration List"
         {
             repeater(Group)
             {
-                field("No.";"No.")
+                field("No."; Rec."No.")
                 {
                 }
-                field("Starting Date";"Starting Date")
+                field("Starting Date"; Rec."Starting Date")
                 {
                 }
-                field("Seminar No.";"Seminar No.")
+                field("Seminar No."; Rec."Seminar No.")
                 {
                 }
-                field("Seminar Name";"Seminar Name")
+                field("Seminar Name"; Rec."Seminar Name")
                 {
                 }
-                field(Status;Status)
+                field(Status; Rec.Status)
                 {
                 }
-                field(Duration;Duration)
+                field(Duration; Rec.Duration)
                 {
                 }
-                field("Maximum Participants";"Maximum Participants")
+                field("Maximum Participants"; Rec."Maximum Participants")
                 {
                 }
-                field("Room Code";"Room Code")
+                field("Room Code"; Rec."Room Resource No.")
                 {
                 }
             }
         }
         area(factboxes)
         {
-            systempart("Links";Links)
+            systempart("Links"; Links)
             {
             }
-            systempart("Notes";Notes)
+            systempart("Notes"; Notes)
             {
             }
         }
@@ -66,15 +66,15 @@ page 50113 "CSD Seminar Registration List"
                     Caption = 'Co&mments';
                     Image = Comment;
                     RunObject = Page 50106;
-                    RunPageLink = "No."=Field("No.");
-                    RunPageView = where("Table Name"=Const("Seminar Registration"));
+                    RunPageLink = "No." = Field("No.");
+                    RunPageView = where("Table Name" = Const("Seminar"));
                 }
                 action("&Charges")
                 {
                     Caption = '&Charges';
                     Image = Costs;
                     RunObject = Page 50124;
-                    RunPageLink = "Document No."=Field("No.");
+                    RunPageLink = "Document No." = Field("No.");
                 }
             }
         }
