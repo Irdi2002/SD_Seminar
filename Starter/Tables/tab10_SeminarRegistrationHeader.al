@@ -348,11 +348,8 @@ table 50110 "CSD Seminar Reg. Header"
             NoSeriesMgt.InitSeries(SeminarSetup."Seminar Registration Nos.", xRec."No. Series", 0D, "No.", "No. Series");
         end;
 
-        if "Posting Date" = 0D then
-            "Posting Date" := WORKDATE;
-        "Document Date" := WORKDATE;
-        SeminarSetup.GET;
-        NoSeriesMgt.SetDefaultSeries("Posting No. Series", SeminarSetup."Posted Seminar Reg. Nos.");
+        InitRecord;
+
     end;
 
 
