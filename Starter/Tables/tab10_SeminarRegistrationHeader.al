@@ -55,7 +55,7 @@ table 50110 "CSD Seminar Reg. Header"
                     Seminar.TestField("Gen. Prod. Posting Group");
                     Seminar.TestField("VAT Prod. Posting Group");
                     "Seminar Name" := Seminar.Name;
-                    Duration := Seminar."Seminar Duration";
+                    "Duration" := Seminar."Seminar Duration";
                     "Seminar Price" := Seminar."Seminar Price";
                     "Gen. Prod. Posting Group" := Seminar."Gen. Prod. Posting Group";
                     "VAT Prod. Posting Group" := Seminar."VAT Prod. Posting Group";
@@ -317,6 +317,10 @@ table 50110 "CSD Seminar Reg. Header"
 
     trigger OnDelete();
     begin
+
+        if (CurrFieldNo > 0) then
+            TestField(Status, Status::Canceled);
+
         SeminarRegLine.RESET;
         SeminarRegLine.SETRANGE("Document No.", "No.");
         SeminarRegLine.SETRANGE(Registered, true);
