@@ -5,6 +5,7 @@ page 50106 "CSD Seminar Comment Line"
     SourceTable = "CSD Seminar Comment Line";
     ApplicationArea = All;
     UsageCategory = Administration;
+    AutoSplitKey = true;
     layout
     {
         area(Content)
@@ -26,4 +27,10 @@ page 50106 "CSD Seminar Comment Line"
             }
         }
     }
+    trigger OnNewRecord(BelowxRec: Boolean);
+    begin
+
+        Rec.SetupNewLine;
+
+    end;
 }
