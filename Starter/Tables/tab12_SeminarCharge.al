@@ -23,7 +23,7 @@ table 50112 "CSD Seminar Charge"
 
             trigger OnValidate();
             var
-                OldType: Integer;
+                OldType: Enum "Sem. Charge Type";
             begin
                 if Type <> xRec.Type then begin
                     OldType := Type;
