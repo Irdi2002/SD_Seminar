@@ -335,7 +335,7 @@ table 50110 "CSD Seminar Reg. Header"
             ERROR(Text006, SeminarCharge.TableCaption);
 
         SeminarCommentLine.RESET;
-        SeminarCommentLine.SETRANGE("Table Name", SeminarCommentLine."Table Name"::"Seminar");
+        SeminarCommentLine.SETRANGE("Table Name", SeminarCommentLine."Table Name"::"Seminar Registration Header");
         SeminarCommentLine.SETRANGE("No.", "No.");
         SeminarCommentLine.deleteALL;
     end;
