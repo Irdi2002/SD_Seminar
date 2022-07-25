@@ -86,10 +86,10 @@ table 50110 "CSD Seminar Reg. Header"
             Editable = false;
             FieldClass = FlowField;
         }
-        field(7; Status; Option)
+        field(7; Status; Enum "Sem. Reg. Header Status")
         {
-            OptionCaption = 'Planning,Registration,Closed,Canceled';
-            OptionMembers = Planning,Registration,Closed,Canceled;
+            Caption = 'Status';
+
         }
         field(8; Duration; Decimal)
         {
