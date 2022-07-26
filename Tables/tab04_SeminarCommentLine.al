@@ -66,7 +66,7 @@ table 50104 "CSD Seminar Comment Line"
         SeminarCommentLine.SetRange("Table Name", "Table Name");
         SeminarCommentLine.SetRange("No.", "No.");
         SeminarCommentLine.SetRange("Document Line No.", "Document Line No.");
-        SeminarCommentLine.SetRange("Date", WorkDate());
+        SeminarCommentLine.SetRange("Date", WorkDate);
         if SeminarCommentLine.IsEmpty then
             Date := WorkDate;
 
