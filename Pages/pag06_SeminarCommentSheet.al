@@ -1,6 +1,6 @@
-page 50106 "CSD Seminar Comment Line"
+page 50106 "CSD Seminar Comment Sheet"
 {
-    Caption = 'CSD Seminar Comment Line';
+    Caption = 'CSD Seminar Comment Sheet';
     PageType = List;
     SourceTable = "CSD Seminar Comment Line";
     ApplicationArea = All;
