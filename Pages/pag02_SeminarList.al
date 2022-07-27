@@ -11,7 +11,7 @@ page 50102 "CSD Seminar List"
     {
         area(Content)
         {
-            group(Repeater)
+            repeater(group)
             {
                 field("No."; Rec."No.")
                 {

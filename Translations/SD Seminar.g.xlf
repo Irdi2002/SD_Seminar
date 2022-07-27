@@ -483,15 +483,15 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page CSD Seminar Charges - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 4096966466 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CSD Seminar Comment Line</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page CSD Seminar Comment Line - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Page 2853201158 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>CSD Seminar Comment List</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page CSD Seminar Comment List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1030630441 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CSD Seminar Comment Sheet</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CSD Seminar Comment Sheet - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1455893296 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Seminar Details</source>
