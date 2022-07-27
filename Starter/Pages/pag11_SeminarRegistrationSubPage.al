@@ -9,6 +9,7 @@ page 50111 "CSD Seminar Reg. Subpage"
     PageType = ListPart;
     SourceTable = "CSD Seminar Registration Line";
     AutoSplitKey = true;
+
     layout
     {
         area(content)

@@ -9,6 +9,7 @@ page 50110 "CSD Seminar Registration"
     SourceTable = "CSD Seminar Reg. Header";
     UsageCategory = tasks;
 
+
     layout
     {
         area(content)
