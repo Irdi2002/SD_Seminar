@@ -45,10 +45,11 @@ page 50102 "CSD Seminar List"
         {
             systempart("Links"; Links)
             {
-
+                ApplicationArea = All;
             }
             systempart("Notes"; Notes)
             {
+                ApplicationArea = All;
 
             }
         }

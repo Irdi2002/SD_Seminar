@@ -55,9 +55,12 @@ page 50113 "CSD Seminar Registration List"
         {
             systempart("Links"; Links)
             {
+                ApplicationArea = All;
             }
             systempart("Notes"; Notes)
             {
+                ApplicationArea = All;
+
             }
         }
     }

@@ -131,18 +131,23 @@ page 50110 "CSD Seminar Registration"
         {
             part("Seminar Details FactBox"; "CSD Seminar Details FactBox")
             {
+                ApplicationArea = All;
                 SubPageLink = "No." = field("Seminar No.");
             }
             part("Customer Details FactBox"; "Customer Details FactBox")
             {
+                ApplicationArea = All;
                 Provider = SeminarRegistrationLines;
                 SubPageLink = "No." = field("Bill-to Customer No.");
             }
             systempart("Links"; Links)
             {
+                ApplicationArea = All;
+
             }
             systempart("Notes"; Notes)
             {
+                ApplicationArea = All;
             }
         }
     }
