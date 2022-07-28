@@ -1,0 +1,17 @@
+enum 50107 "Sem. Jou. Type"
+{
+    Extensible = true;
+
+    value(0; " ")
+    {
+    }
+
+    value(1; "Resource")
+    {
+        Caption = 'Resource';
+    }
+    value(2; "G/L Account")
+    {
+        Caption = 'G/L Account';
+    }
+}
