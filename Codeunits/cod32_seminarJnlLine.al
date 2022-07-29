@@ -19,7 +19,16 @@ codeunit 50132 "CSD Seminar Jnl.-Post Line"
     local procedure Code()
     begin
         with SeminarJnlLine do begin
-            //Task 8 Mod 7
+            if NextEntryNo = 0 then begin
+                SeminarLedgerEntry.LockTable;
+                if SeminarLedgerEntry.FindLast() then
+                    NextEntryNo := SeminarLedgerEntry."Entry No.";
+                NextEntryNo := NextEntryNo + 1;
+
+            end;
+
+
+            //Task 8 Mod 7  Fq. 286
         end;
     end;
 
