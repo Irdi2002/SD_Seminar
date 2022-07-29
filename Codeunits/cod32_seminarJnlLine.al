@@ -19,7 +19,7 @@ codeunit 50132 "CSD Seminar Jnl.-Post Line"
     local procedure Code()
     begin
         with SeminarJnlLine do begin
-
+            //Task 8 Mod 7
         end;
     end;
 
