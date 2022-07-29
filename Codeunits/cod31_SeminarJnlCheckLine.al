@@ -48,6 +48,31 @@ codeunit 50131 "CSD Seminar Jnl.-Check Line"
 
             if "Posting Date" = ClosingDate("Posting Date") then
                 FieldError("Posting Date", ClosingDAteTxt);
+
+            if (AllowPostingFrom = 0D) and (AllowPostingTo = 0D) and (AllowPostingTo = 0D) then begin
+                if UserId <> '' then
+                    if UserSetup.GET(UserId) then begin
+                        AllowPostingFrom := UserSetup."Allow Posting From";
+                        AllowPostingTo := UserSetup."Allow Posting To";
+                    end;
+
+                if (AllowPostingFrom = 0D) and (AllowPostingTo = 0D) then begin
+                    GLSetup.GET;
+                    AllowPostingFrom := GLSetup."Allow Posting From";
+                    AllowPostingTo := GLSetup."Allow Posting To";
+                end;
+                if AllowPostingTo = 0D then
+                    AllowPostingTo := DMY2Date(32, 12, 9999);
+            end;
+
+            if ("Posting Date" < AllowPostingFrom) OR
+               ("Posting Date" > AllowPostingTo) then
+                FieldError("Posting Date", PostingDateTxt);
+
+            if ("Document Date" <> 0D) then
+                if ("Document Date" = ClosingDate("Document Date")) then
+                    FieldError("Document Date", PostingDateTxt);
+
         end;
 
     end;
