@@ -146,9 +146,10 @@ table 50131 "CSD Seminar Journal Line"
 
     keys
     {
-        key(Key1; "Journal Template Name", "Journal Batch Name", "Line No.")
+        key(PK; "Journal Template Name", "Journal Batch Name", "Line No.")
         {
         }
+
         // Ne Liber thoshte qe key duhej te ishte Primary Key;
 
     }
