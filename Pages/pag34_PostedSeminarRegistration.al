@@ -98,11 +98,11 @@ page 50134 "CSD Posted Seminar Reg."
         }
         area(factboxes)
         {
-            part(50117)
+            part("test1"; 50117)
             {
                 SubPageLink = "No." = Field("Seminar No.");
             }
-            part(9084)
+            part("test2"; 9084)
             {
                 Provider = SeminarRegistrationLines;
                 SubPageLink = "No." = Field("Bill-to Customer No.");

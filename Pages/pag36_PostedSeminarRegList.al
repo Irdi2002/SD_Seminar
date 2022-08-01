@@ -44,7 +44,7 @@ page 50136 "CSD Posted Seminar Reg. List"
         }
         area(factboxes)
         {
-            part(; 50117)
+            part("test3"; 50117)
             {
                 //"50117";50117
                 SubPageLink = "No." = Field("Seminar No.");
