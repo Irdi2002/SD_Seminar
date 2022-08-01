@@ -23,7 +23,9 @@ table 50104 "CSD Seminar Comment Line"
             TableRelation =
             if ("Table Name" = const(Seminar)) "CSD Seminar"
             else
-            if ("Table Name" = const("Seminar Registration Header")) "CSD Seminar Reg. Header";
+            if ("Table Name" = const("Seminar Registration Header")) "CSD Seminar Reg. Header"
+            else
+            if ("Table Name" = const("Posted Seminar Reg. Header")) "CSD Posted Seminar Reg. Header";
         }
 
         field(40; "Line No."; Integer)
