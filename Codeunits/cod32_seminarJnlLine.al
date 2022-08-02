@@ -58,6 +58,7 @@ codeunit 50132 "CSD Seminar Jnl.-Post Line"
         SeminarLedgerEntry."Bill-to Customer No." := SeminarJnlLine."Bill-to Customer No.";
         SeminarLedgerEntry."Charge Type" := SeminarJnlLine."Charge Type";
         SeminarLedgerEntry.Type := SeminarJnlLine.Type;
+        SeminarLedgerEntry.Quantity := SeminarJnlLine."Quantity";
         SeminarLedgerEntry."Unit Price" := SeminarJnlLine."Unit Price";
         SeminarLedgerEntry."Total Price" := SeminarJnlLine."Total Price";
         SeminarLedgerEntry."Participant Contact No." := SeminarJnlLine."Participant Contact No.";
