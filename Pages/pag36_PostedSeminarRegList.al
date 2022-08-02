@@ -9,7 +9,8 @@ page 50136 "CSD Posted Seminar Reg. List"
     Editable = false;
     PageType = List;
     SourceTable = "CSD Posted Seminar Reg. Header";
-
+    UsageCategory = Lists;
+    ApplicationArea = All;
     layout
     {
         area(content)
@@ -52,16 +53,18 @@ page 50136 "CSD Posted Seminar Reg. List"
         }
         area(factboxes)
         {
-            part("test3"; 50117)
+            part("CSD Seminar Details Factbox"; 50117)
             {
                 //"50117";50117
                 SubPageLink = "No." = Field("Seminar No.");
             }
             systempart("Links"; Links)
             {
+                ApplicationArea = All;
             }
             systempart("Notes"; Notes)
             {
+                ApplicationArea = All;
             }
         }
     }
@@ -79,7 +82,7 @@ page 50136 "CSD Posted Seminar Reg. List"
                     Image = Comment;
                     RunObject = Page 50106;
                     RunPageLink = "No." = Field("No.");
-                    RunPageView = where("Document Type" = const("Posted Seminar Registration"));
+                    // RunPageView = where("Document Type" = const("Posted Seminar Registration"));
                 }
                 action("&Charges")
                 {

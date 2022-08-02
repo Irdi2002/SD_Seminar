@@ -8,7 +8,6 @@ page 50134 "CSD Posted Seminar Reg."
     Editable = false;
     PageType = Document;
     SourceTable = "CSD Posted Seminar Reg. Header";
-
     layout
     {
         area(content)
@@ -121,20 +120,22 @@ page 50134 "CSD Posted Seminar Reg."
         }
         area(factboxes)
         {
-            part("test1"; 50117)
+            part("CSD Seminar Details FactBox"; 50117)
             {
                 SubPageLink = "No." = Field("Seminar No.");
             }
-            part("test2"; 9084)
+            part("Customer Details FactBox"; 9084)
             {
                 Provider = SeminarRegistrationLines;
                 SubPageLink = "No." = Field("Bill-to Customer No.");
             }
             systempart("Links"; Links)
             {
+                ApplicationArea = All;
             }
             systempart("Notes"; Notes)
             {
+                ApplicationArea = All;
             }
         }
     }
@@ -152,7 +153,7 @@ page 50134 "CSD Posted Seminar Reg."
                     Image = Comment;
                     RunObject = Page 50106;
                     RunPageLink = "No." = Field("No.");
-                    RunPageView = where("Document Type" = const("Posted Seminar Registration"));
+                    //  RunPageView = where("Document Line No." = const("Posted Seminar Registration"));
                 }
                 action("&Charges")
                 {
