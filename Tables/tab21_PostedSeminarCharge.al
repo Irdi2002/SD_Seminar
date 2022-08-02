@@ -11,7 +11,7 @@ table 50121 "CSD Posted Seminar Charge"
         {
             Caption = 'Document No.';
             NotBlank = true;
-            TableRelation = "CSD Seminar Reg. Header";
+            TableRelation = "CSD Posted Seminar Reg. Header";
         }
         field(2; "Line No."; Integer)
         {

@@ -141,14 +141,15 @@ table 50118 "CSD Posted Seminar Reg. Header"
             TableRelation = "No. Series".Code;
         }
 
-        field(29; "User Id"; Code[50])
+        field(28; "User Id"; Code[50])
         {
+            //Fq 296 thote qe duhet te shtojme OnLookup();
             Caption = 'User Id';
             TableRelation = User;
             ValidateTableRelation = false;
         }
 
-        field(30; "Source Code"; Code[10])
+        field(29; "Source Code"; Code[10])
         {
             Caption = 'Source Code';
             TableRelation = "Source Code";

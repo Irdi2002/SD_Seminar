@@ -10,7 +10,7 @@ table 50119 "CSD Posted Seminar Reg Line"
         field(1; "Document No."; Code[20])
         {
             caption = 'Document No.';
-            TableRelation = "CSD Seminar Reg. Header";
+            TableRelation = "CSD Posted Seminar Reg. Header";
         }
         field(2; "Line No."; Integer)
         {
