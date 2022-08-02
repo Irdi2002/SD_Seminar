@@ -4,7 +4,7 @@ codeunit 50132 "CSD Seminar Jnl.-Post Line"
 
     trigger OnRun();
     begin
-
+        RunWithCheck(Rec);
     end;
 
     var
