@@ -1118,6 +1118,51 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit CSD Seminar Jnl.-Check Line - NamedType PostingDateTxt</note>
         </trans-unit>
+        <trans-unit id="Codeunit 997952810 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There is no participant to post.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CSD Seminar-Post - NamedType Text001</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 997952810 - NamedType 3752334001" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting lines              #2######\</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CSD Seminar-Post - NamedType Text002</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 997952810 - NamedType 95063322" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Registration</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CSD Seminar-Post - NamedType Text003</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 997952810 - NamedType 732759939" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Registration %1  -&gt; Posted Reg. %2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CSD Seminar-Post - NamedType Text004</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 997952810 - NamedType 1370456556" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The combination of dimensions used in %1 is blocked. %2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CSD Seminar-Post - NamedType Text005</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 997952810 - NamedType 2008153173" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The combination of dimensions used in %1,  line no. %2 is blocked. %3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CSD Seminar-Post - NamedType Text006</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 997952810 - NamedType 2645849790" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The dimensions used in %1 are invalid. %2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CSD Seminar-Post - NamedType Text007</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 997952810 - NamedType 3283546407" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The dimensions used in %1, line no. %2 are invalid. %3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CSD Seminar-Post - NamedType Text008</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2321225162 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to post the Registration?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CSD Seminar-Post (Yes/No) - NamedType Text001</note>
+        </trans-unit>
         <trans-unit id="Page 1014107342 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Lines</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1233,6 +1278,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page CSD Seminar Registration - Action &amp;Charges - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 3811004094 - Action 1129919258 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Post</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CSD Seminar Registration - Action &amp;Post - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 3811004094 - Action 3000180178 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Co&amp;mments</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1252,6 +1302,11 @@
           <source>&amp;Charges</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page CSD Seminar Registration List - Action &amp;Charges - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3748999164 - Action 1129919258 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Post</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CSD Seminar Registration List - Action &amp;Post - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3748999164 - Action 3000180178 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Co&amp;mments</source>
@@ -1273,6 +1328,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension CSD SourceCodeSetupExt - Control CSD SeminarGroup - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 4232848226 - Field 3215205264 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1308990239">
+          <source>CSD Seminar No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CSD ResJournalLineExt - Field CSD Seminar No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4232848226 - Field 3170642127 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1308990239">
+          <source>CSD Seminar Registration No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CSD ResJournalLineExt - Field CSD Seminar Registration No. - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 2331780929 - Field 3679661628 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 348912950">
           <source>Maximum Participants</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1293,10 +1358,40 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension CSD ResourceExt - Field CSD Seminar Type - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 2643206709 - Field 3215205264 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2850645989">
+          <source>CSD Seminar No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CSD SeminarLedgerEntryExt - Field CSD Seminar No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2643206709 - Field 3170642127 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2850645989">
+          <source>CSD Seminar Registration No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CSD SeminarLedgerEntryExt - Field CSD Seminar Registration No. - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 588884718 - Field 1023874429 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1642199961">
           <source>Seminar</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension CSD SourceCodeCetupExt - Field CSD Seminar - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 172424966 - EnumValue 1766782118 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Charge</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Charge Type - EnumValue Charge - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 172424966 - EnumValue 4239863583 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Instructor</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Charge Type - EnumValue Instructor - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 172424966 - EnumValue 4059628121 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Participant</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Charge Type - EnumValue Participant - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 172424966 - EnumValue 1631617913 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Room</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Charge Type - EnumValue Room - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 1204095466 - EnumValue 4239863583 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Instructor</source>
@@ -1328,26 +1423,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Sem. Charge Type - EnumValue Resource - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Enum 3995364403 - EnumValue 1766782118 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Charge</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Enum Sem. Jou. Charge Type - EnumValue Charge - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Enum 3995364403 - EnumValue 4239863583 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Instructor</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Enum Sem. Jou. Charge Type - EnumValue Instructor - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Enum 3995364403 - EnumValue 4059628121 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Participant</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Enum Sem. Jou. Charge Type - EnumValue Participant - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Enum 3995364403 - EnumValue 1631617913 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Room</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Enum Sem. Jou. Charge Type - EnumValue Room - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Enum 359771025 - EnumValue 1046555957 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Cancelation</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1367,16 +1442,6 @@
           <source>Seminar</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Sem. Jou. Source Type - EnumValue Seminar - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Enum 646661845 - EnumValue 4274826855 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>G/L Account</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Enum Sem. Jou. Type - EnumValue G/L Account - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Enum 646661845 - EnumValue 348912950 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Resource</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Enum Sem. Jou. Type - EnumValue Resource - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 3184476188 - EnumValue 3844911025 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Canceled</source>

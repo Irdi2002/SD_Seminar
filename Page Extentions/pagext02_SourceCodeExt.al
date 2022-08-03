@@ -1,5 +1,6 @@
 pageextension 50103 "CSD SourceCodeSetupExt" extends "Source Code Setup"
 {
+
     layout
     {
         addafter("Cost Accounting")
@@ -10,6 +11,7 @@ pageextension 50103 "CSD SourceCodeSetupExt" extends "Source Code Setup"
                 Caption = 'Seminar';
                 field(Seminar; Rec."CSD Seminar")
                 {
+                    ApplicationArea = all;
                 }
             }
         }

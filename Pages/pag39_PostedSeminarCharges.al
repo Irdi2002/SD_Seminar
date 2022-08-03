@@ -9,7 +9,8 @@ page 50139 "CSD Posted Seminar Charges"
     Editable = false;
     PageType = List;
     SourceTable = "CSD Posted Seminar Charge";
-
+    UsageCategory = Lists;
+    ApplicationArea = all;
     layout
     {
         area(content)
