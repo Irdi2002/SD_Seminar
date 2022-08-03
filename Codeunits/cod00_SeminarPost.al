@@ -10,7 +10,7 @@ codeunit 50100 "CSD Seminar-Post"
     begin
         ClearAll();
         SeminarRegHeader := Rec;
-        //with SeminarRegHeader do begin
+
         SeminarRegHeader.TestField("Posting Date");
         SeminarRegHeader.TestField("Document Date");
         SeminarRegHeader.TestField("Seminar No.");
@@ -87,10 +87,6 @@ codeunit 50100 "CSD Seminar-Post"
         PostSeminarJnlLine("Charge Type"::Room);
         //Delete 
         SeminarRegHeader.Delete(true);
-
-
-
-        //end;
         Rec := SeminarRegHeader;
     end;
 
