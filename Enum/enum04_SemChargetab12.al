@@ -10,13 +10,8 @@ enum 50104 "Sem. Charge Type"
     {
         Caption = 'Resource';
     }
-
     value(2; "G/L Account")
     {
         Caption = 'G/L Account';
-
     }
-
-
-
 }

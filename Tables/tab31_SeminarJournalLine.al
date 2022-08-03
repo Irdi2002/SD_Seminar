@@ -52,12 +52,12 @@ table 50131 "CSD Seminar Journal Line"
             Caption = 'Bill-to Customer No.';
             TableRelation = Customer;
         }
-        field(11; "Charge Type"; Enum "Sem. Jou. Charge Type")
+        field(11; "Charge Type"; Enum "Charge Type")
         {
             Caption = 'Charge Type';
 
         }
-        field(12; Type; Enum "Sem. Jou. Type")
+        field(12; Type; Enum "Sem. Charge Type")
         {
             Caption = 'Type';
         }

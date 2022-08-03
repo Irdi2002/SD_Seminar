@@ -43,11 +43,11 @@ table 50132 "CSD Seminar Ledger Entry"
             Caption = 'Bill-to Customer No.';
             TableRelation = Customer;
         }
-        field(9; "Charge Type"; Enum "Sem. Jou. Charge Type")
+        field(9; "Charge Type"; Enum "Charge Type")
         {
             Caption = 'Charge Type';
         }
-        field(10; Type; Enum "Sem. Jou. Type")
+        field(10; Type; Enum "Sem. Charge Type")
         {
             Caption = 'Type';
         }

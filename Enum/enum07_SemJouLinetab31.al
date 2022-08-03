@@ -1,17 +1,18 @@
-enum 50107 "Sem. Jou. Type"
+enum 50108 "Sem. Jou. Source Type"
 {
     Extensible = true;
 
     value(0; " ")
     {
+        Caption = ' ';
     }
 
-    value(1; "Resource")
+    value(1; "Seminar")
     {
-        Caption = 'Resource';
+        Caption = 'Seminar';
+
     }
-    value(2; "G/L Account")
-    {
-        Caption = 'G/L Account';
-    }
+
+
+
 }
