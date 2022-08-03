@@ -173,6 +173,13 @@ codeunit 50100 "CSD Seminar-Post"
 
     local procedure PostCharges();
     begin
+        SeminarCharge.Reset();
+        SeminarCharge.SetRange("Document No.", SeminarRegHeader."No.");
+        if SeminarCharge.FindSet(false, false) then
+            repeat
+                PostSeminarJnlLine("Charge Type"::Charge);
+            until SeminarCharge.next = 0;
+
     end;
 }
 
