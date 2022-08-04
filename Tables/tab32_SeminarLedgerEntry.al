@@ -13,7 +13,7 @@ table 50132 "CSD Seminar Ledger Entry"
         field(1; "Entry No."; Integer)
         {
             Caption = 'Entry No.';
-            ;
+
         }
         field(2; "Seminar No."; Code[20])
         {
