@@ -26,8 +26,7 @@ codeunit 50131 "CSD Seminar Jnl.-Check Line"
     procedure Runcheck(var SemJnLine: Record "CSD Seminar Journal Line");
     begin
 
-        if SemJnLine.EmptyLine then
-            exit;
+        if SemJnLine.EmptyLine then exit;
         SemJnLine.TestField("Posting Date");
         SemJnLine.TestField("Instructor Resource No.");
         SemJnLine.TestField("Seminar No.");
