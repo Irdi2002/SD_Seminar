@@ -9,8 +9,6 @@ page 50136 "CSD Posted Seminar Reg. List"
     Editable = false;
     PageType = List;
     SourceTable = "CSD Posted Seminar Reg. Header";
-    UsageCategory = Lists;
-    ApplicationArea = all;
     layout
     {
         area(content)
