@@ -75,11 +75,11 @@ page 50101 "CSD Seminar Card"
         {
             systempart("Links"; Links)
             {
-
+                ApplicationArea = All;
             }
             systempart("Notes"; Notes)
             {
-
+                ApplicationArea = All;
             }
         }
     }

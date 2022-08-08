@@ -1268,6 +1268,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page CSD Seminar List - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 729898515 - Action 103722640 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Registrations</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CSD Seminar List - Action &amp;Registrations - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 729898515 - Action 1940178401 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ledger Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CSD Seminar List - Action Ledger Entries - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 4127214982 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Lines</source>
           <note from="Developer" annotates="general" priority="2"></note>
