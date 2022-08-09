@@ -60,6 +60,7 @@ page 50122 "CSD Seminar Registers"
         {
             action("Seminar Ledgers")
             {
+                ApplicationArea = All;
                 Image = WarrantyLedger;
                 RunObject = codeunit "CSD Seminar Reg.-Show Ledger";
             }

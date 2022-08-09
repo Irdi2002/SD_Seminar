@@ -92,12 +92,13 @@ page 50101 "CSD Seminar Card"
             {
                 action("Co&mments")
                 {
-                    RunObject = page "CSD Seminar Comment List";
+                    RunObject = page "CSD Seminar Comment Sheet";
                     RunPageLink = "Table Name" = const(Seminar), "No." = field("No.");
                     Image = Comment;
                     Promoted = true;
                     PromotedIsBig = true;
                     PromotedOnly = true;
+                    ApplicationArea = All;
 
                 }
 
@@ -109,6 +110,7 @@ page 50101 "CSD Seminar Card"
                     Promoted = true;
                     PromotedCategory = Process;
                     ShortcutKey = "CTRL+F7";
+                    ApplicationArea = All;
                     Image = WarrantyLedger;
                 }
 
@@ -120,6 +122,7 @@ page 50101 "CSD Seminar Card"
                     Image = Timesheet;
                     Promoted = true;
                     PromotedCategory = Process;
+                    ApplicationArea = All;
                 }
             }
         }
@@ -133,6 +136,7 @@ page 50101 "CSD Seminar Card"
                 Image = Timesheet;
                 Promoted = true;
                 PromotedCategory = New;
+                ApplicationArea = All;
             }
         }
     }

@@ -14,7 +14,7 @@ page 50111 "CSD Seminar Reg. Subpage"
     {
         area(content)
         {
-            repeater(Group)
+            repeater("Group")
             {
                 field("Bill-to Customer No."; Rec."Bill-to Customer No.")
                 {

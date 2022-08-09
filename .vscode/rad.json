@@ -1,1 +1,1 @@
-﻿{"Added":[],"Modified":[{"Id":50101,"Kind":13,"Name":"CSD SeminarRegParticipantList","PackagePath":"/src/Reports/rep01_SeminarRegParticipantList.al"},{"Id":50101,"Kind":12,"Name":"CSD Seminar Card","PackagePath":"/src/Pages/pag01_SeminarCard.al"}],"Removed":[]}
+﻿{"Added":[],"Modified":[{"Id":50134,"Kind":12,"Name":"CSD Posted Seminar Reg.","PackagePath":"/src/Pages/pag34_PostedSeminarRegistration.al"},{"Id":50111,"Kind":12,"Name":"CSD Seminar Reg. Subpage","PackagePath":"/src/Pages/pag11_SeminarRegistrationSubPage.al"}],"Removed":[]}

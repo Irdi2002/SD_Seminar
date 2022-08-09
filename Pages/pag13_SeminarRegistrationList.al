@@ -79,6 +79,7 @@ page 50113 "CSD Seminar Registration List"
                     RunObject = Page 50106;
                     RunPageLink = "No." = Field("No.");
                     RunPageView = where("Table Name" = Const("Seminar Registration Header"));
+                    ApplicationArea = All;
                 }
                 action("&Charges")
                 {
@@ -86,6 +87,7 @@ page 50113 "CSD Seminar Registration List"
                     Image = Costs;
                     RunObject = Page 50124;
                     RunPageLink = "Document No." = Field("No.");
+                    ApplicationArea = All;
                 }
 
                 action("&Post")
@@ -97,6 +99,7 @@ page 50113 "CSD Seminar Registration List"
                     PromotedCategory = Process;
                     ShortcutKey = F9;
                     RunObject = codeunit "CSD Seminar-Post (Yes/No)";
+                    ApplicationArea = All;
                 }
 
             }

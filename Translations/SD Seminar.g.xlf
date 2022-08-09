@@ -1179,7 +1179,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page CSD Posted Seminar Charges - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2994756472 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Seminar Registration</source>
+          <source>Posted Seminar Registration</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page CSD Posted Seminar Reg. - Property Caption</note>
         </trans-unit>
@@ -1204,7 +1204,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page CSD Posted Seminar Reg. - Action &amp;Navigate - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3186773354 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Seminar Registration List</source>
+          <source>Posted Seminar Registration List</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page CSD Posted Seminar Reg. List - Property Caption</note>
         </trans-unit>

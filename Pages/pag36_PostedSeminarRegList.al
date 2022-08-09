@@ -4,7 +4,7 @@ page 50136 "CSD Posted Seminar Reg. List"
     //   Chapter 7 - Lab 3
     //     - Created new page
 
-    Caption = 'Seminar Registration List';
+    Caption = 'Posted Seminar Registration List';
     CardPageID = "CSD Posted Seminar Reg.";
     Editable = false;
     PageType = List;
@@ -76,6 +76,7 @@ page 50136 "CSD Posted Seminar Reg. List"
                 Caption = '&Seminar Registration';
                 action("Co&mments")
                 {
+                    ApplicationArea = All;
                     Caption = 'Co&mments';
                     Image = Comment;
                     RunObject = Page 50106;
@@ -84,6 +85,7 @@ page 50136 "CSD Posted Seminar Reg. List"
                 }
                 action("&Charges")
                 {
+                    ApplicationArea = All;
                     Caption = '&Charges';
                     Image = Costs;
                     RunObject = Page 50139;

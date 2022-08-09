@@ -3,8 +3,8 @@ page 50106 "CSD Seminar Comment Sheet"
     Caption = 'CSD Seminar Comment Sheet';
     PageType = List;
     SourceTable = "CSD Seminar Comment Line";
-    UsageCategory = Administration;
     AutoSplitKey = true;
+
     layout
     {
         area(Content)
