@@ -38,7 +38,7 @@ page 50110 "CSD Seminar Registration"
                 {
                     ApplicationArea = All;
                 }
-                field("Instructor Code"; Rec."Instructor Resource No.")
+                field("Instructor Resource No."; Rec."Instructor Resource No.")
                 {
                     ApplicationArea = All;
                 }
@@ -75,10 +75,11 @@ page 50110 "CSD Seminar Registration"
             {
                 part(SeminarRegistrationLines; "CSD Seminar Reg. Subpage")
                 {
+                    ApplicationArea = All;
                     Caption = 'Lines';
                     SubPageLink = "Document No." = field("No.");
                 }
-                field("Room Code"; Rec."Room Resource No.")
+                field("Room Resource No."; Rec."Room Resource No.")
                 {
                     ApplicationArea = All;
                 }

@@ -154,6 +154,7 @@ page 50134 "CSD Posted Seminar Reg."
                     RunObject = Page 50106;
                     RunPageLink = "No." = Field("No.");
                     RunPageView = where("Table Name" = const("Posted Seminar Reg. Header"));
+                    ApplicationArea = All;
                 }
                 action("&Charges")
                 {
@@ -161,6 +162,7 @@ page 50134 "CSD Posted Seminar Reg."
                     Image = Costs;
                     RunObject = Page 50139;
                     RunPageLink = "Document No." = Field("No.");
+                    ApplicationArea = All;
                 }
             }
         }
