@@ -6,12 +6,10 @@
             "request": "launch",
             "type": "al",
             "environmentType": "OnPrem",
-            "server": "http://10.55.52.100/",
-            "serverInstance": "BC190",
+            "server": "http://10.55.52.66:2020/BC200/",
+            "serverInstance": "BC200",
             "authentication": "UserPassword",
-            "port": 7049,
-            "startupObjectId": 22,
-            "startupObjectType": "Page",
+            "port": 2049,
             "breakOnError": true,
             "launchBrowser": true
             

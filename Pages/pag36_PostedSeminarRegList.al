@@ -58,6 +58,7 @@ page 50136 "CSD Posted Seminar Reg. List"
             {
                 //"50117";50117
                 SubPageLink = "No." = Field("Seminar No.");
+                ApplicationArea = All;
             }
             systempart("Links"; Links)
             {

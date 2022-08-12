@@ -15,6 +15,10 @@ page 50124 "CSD Seminar Charges"
         {
             repeater(Group)
             {
+                field(Type; Rec.Type)
+                {
+                    ApplicationArea = All;
+                }
                 field("No."; Rec."No.")
                 {
                     ApplicationArea = All;

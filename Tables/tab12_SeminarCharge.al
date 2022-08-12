@@ -25,10 +25,10 @@ table 50112 "CSD Seminar Charge"
             var
                 OldType: Enum "Sem. Charge Type";
             begin
-                if Type <> xRec.Type then begin
-                    OldType := Type;
-                    Init;
-                    Type := OldType;
+                if Rec.Type <> xRec.Type then begin
+                    OldType := Rec.Type;
+                    Rec.Init;
+                    Rec.Type := OldType;
                 end;
             end;
         }

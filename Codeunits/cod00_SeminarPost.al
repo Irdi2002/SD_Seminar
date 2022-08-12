@@ -59,33 +59,26 @@ codeunit 50100 "CSD Seminar-Post"
         SeminarRegLine.SetRange("Document No.", SeminarRegHeader."No.");
         if SeminarRegLine.FindSet then begin
             repeat
+                Window.Update(2, LineCount);
+                SeminarRegLine.TestField("Bill-to Customer No.");
+                SeminarRegLine.TestField("Participant Contact No.");
+                if not SeminarRegLine."To Invoice" then begin
+                    SeminarRegLine."Seminar Price" := 0;
+                    SeminarRegLine."Line Discount %" := 0;
+                    SeminarRegLine."Line Discount Amount" := 0;
+                    SeminarRegLine.Amount := 0;
+                end;
+
+
+                PostSeminarJnlLine("Charge Type"::Participant);
+                PstdSeminarRegLine.TransferFields(SeminarRegLine);
+                PstdSeminarRegLine."Document No." := PstdSeminarRegHeader."No.";
+                PstdSeminarRegLine.Insert();
             until SeminarRegLine.Next = 0;
-
         end;
-
-        Window.Update(2, LineCount);
-        SeminarRegLine.TestField("Bill-to Customer No.");
-        SeminarRegLine.TestField("Participant Contact No.");
-        if not SeminarRegLine."To Invoice" then begin
-            SeminarRegLine."Seminar Price" := 0;
-            SeminarRegLine."Line Discount %" := 0;
-            SeminarRegLine."Line Discount Amount" := 0;
-            SeminarRegLine.Amount := 0;
-        end;
-
-        //Post Seminar Entry;
-        PostSeminarJnlLine("Charge Type"::Participant);
-        //Insert posted seminar reg line;
-        PstdSeminarRegLine.TransferFields(SeminarRegLine);
-        PstdSeminarRegLine."Document No." := PstdSeminarRegHeader."No.";
-        PstdSeminarRegLine.Insert();
-        //Post charges to ledger;
         PostCharges();
-        //Post instructor to ledger;
         PostSeminarJnlLine("Charge Type"::Instructor);
-        //Post seminar room to ledger;
         PostSeminarJnlLine("Charge Type"::Room);
-        //Delete 
         SeminarRegHeader.Delete(true);
         Rec := SeminarRegHeader;
     end;
@@ -143,6 +136,8 @@ codeunit 50100 "CSD Seminar-Post"
         SeminarCharge.SetRange("Document No.", FromNumber);
         if SeminarCharge.FindSet then
             repeat
+                PstdSeminarCharge.Reset();
+                PstdSeminarCharge.Init();
                 PstdSeminarCharge.TransferFields(SeminarCharge);
                 PstdSeminarCharge."Document No." := ToNumber;
                 PstdSeminarCharge.Insert;
@@ -244,9 +239,7 @@ codeunit 50100 "CSD Seminar-Post"
                     SeminarJnlLine."Total Price" := SeminarCharge."Total Price";
                     SeminarJnlLine.Chargeable := SeminarCharge."To Invoice";
                 end;
-
         end;
-
         SeminarJnlPostLine.RunWithCheck(SeminarJnlLine);
     end;
 
@@ -256,11 +249,12 @@ codeunit 50100 "CSD Seminar-Post"
 
         SeminarCharge.Reset();
         SeminarCharge.SetRange("Document No.", SeminarRegHeader."No.");
-        if SeminarCharge.FindSet(false, false) then
+        if SeminarCharge.FindSet(false, false) then begin
             repeat
                 PostSeminarJnlLine("Charge Type"::Charge);
             until SeminarCharge.next = 0;
-
+            SeminarCharge.DeleteAll();
+        end;
     end;
 }
 

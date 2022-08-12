@@ -148,15 +148,7 @@ page 50121 "CSD Seminar Ledger Entries"
     {
         area(Processing)
         {
-            action(ActionName)
-            {
-                ApplicationArea = All;
 
-                trigger OnAction()
-                begin
-
-                end;
-            }
         }
     }
 }

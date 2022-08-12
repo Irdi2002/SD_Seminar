@@ -31,6 +31,7 @@ table 50132 "CSD Seminar Ledger Entry"
         field(5; "Entry Type"; Enum "Sem. Jou. Entry Type")
         {
             Caption = 'Entry Type';
+
         }
         field(6; "Document No."; Code[20])
         {
@@ -73,9 +74,12 @@ table 50132 "CSD Seminar Ledger Entry"
             Caption = 'Participant Contact No.';
             TableRelation = Contact;
         }
-        field(15; "Participant Name"; Text[50])
+        field(15; "Participant Name"; Text[100])
         {
             Caption = 'Participant Name';
+            // CalcFormula = Lookup(Contact.Name where("No." = Field("Participant Contact No.")));
+            // Editable = false;
+            // FieldClass = FlowField;
         }
         field(16; Chargeable; Boolean)
         {

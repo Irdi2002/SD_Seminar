@@ -7,9 +7,6 @@ page 50110 "CSD Seminar Registration"
     Caption = 'Seminar Registration';
     PageType = Document;
     SourceTable = "CSD Seminar Reg. Header";
-    UsageCategory = tasks;
-    ApplicationArea = All;
-
     layout
     {
         area(content)
@@ -71,14 +68,15 @@ page 50110 "CSD Seminar Registration"
                     ApplicationArea = All;
                 }
             }
+            part(SeminarRegistrationLines; "CSD Seminar Reg. Subpage")
+            {
+                ApplicationArea = All;
+                Caption = 'Lines';
+                SubPageLink = "Document No." = field("No.");
+            }
             group("Seminar Room")
             {
-                part(SeminarRegistrationLines; "CSD Seminar Reg. Subpage")
-                {
-                    ApplicationArea = All;
-                    Caption = 'Lines';
-                    SubPageLink = "Document No." = field("No.");
-                }
+
                 field("Room Resource No."; Rec."Room Resource No.")
                 {
                     ApplicationArea = All;
