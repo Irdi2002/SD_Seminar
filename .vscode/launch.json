@@ -4,6 +4,7 @@
         {
             "name": "Your own server",
             "request": "launch",
+            //"schemaUpdateMode": "ForceSync",
             "type": "al",
             "environmentType": "OnPrem",
             "server": "http://10.55.52.66:2020/BC200/",

@@ -1,4 +1,4 @@
-pageextension 50104 "CSD ResourceLedgerEntryExt" extends "Resource Ledger Entries"
+pageextension 50108 "CSD ResourceLedgerEntryExt" extends "Resource Ledger Entries"
 {
     layout
     {
@@ -6,11 +6,11 @@ pageextension 50104 "CSD ResourceLedgerEntryExt" extends "Resource Ledger Entrie
         {
             field("CSD Seminar No."; Rec."CSD Seminar No.")
             {
-
+                ApplicationArea = All;
             }
             field("CSD Seminar Registration No."; Rec."CSD Seminar Registration No.")
             {
-
+                ApplicationArea = All;
             }
         }
     }

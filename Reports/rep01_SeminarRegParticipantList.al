@@ -3,8 +3,9 @@ report 50101 "CSD SeminarRegParticipantList"
     Caption = 'Seminar Reg.-Participant List';
     UsageCategory = ReportsAndAnalysis;
     ApplicationArea = All;
-    DefaultLayout = RDLC;
     RDLCLayout = './Layouts/SeminarRegParticipantList.rdl';
+    DefaultLayout = RDLC;
+
     dataset
     {
         dataitem(SeminarRegistrationHeader; "CSD Seminar Reg. Header")
@@ -27,7 +28,7 @@ report 50101 "CSD SeminarRegParticipantList"
             {
                 IncludeCaption = true;
             }
-            column(Duration; "Duration")
+            column(Duration; Duration)
             {
                 IncludeCaption = true;
             }
