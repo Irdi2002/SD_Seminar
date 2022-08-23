@@ -22,7 +22,10 @@ codeunit 50100 "CSD Seminar-Post"
         SeminarRegLine.Reset;
         SeminarRegLine.SetRange("Document No.", SeminarRegHeader."No.");
 
-        if SeminarRegLine.IsEmpty then Error(Text001);
+        if SeminarRegLine.IsEmpty then
+            Error(Text001);
+        if (SeminarRegLine.Count() < SeminarRegHeader."Minimum Participants") then Error(Text009);
+        if (SeminarRegLine.Count() > SeminarRegHeader."Maximum Participants") then Error(Text009);
 
         Window.Open('#1################################\\' + Text002);
         Window.Update(1, StrSubstNo('%1 %2', Text003, SeminarRegHeader."No."));
@@ -114,6 +117,7 @@ codeunit 50100 "CSD Seminar-Post"
         Text006: Label 'The combination of dimensions used in %1,  line no. %2 is blocked. %3';
         Text007: Label 'The dimensions used in %1 are invalid. %2';
         Text008: Label 'The dimensions used in %1, line no. %2 are invalid. %3';
+        Text009: Label 'The number of participants does not match the seminar criterias.';
 
     local procedure CopyCommentLines(FromDocumentType: Enum "Table Name"; ToDocumentType: Enum "Table Name"; FromNumber: Code[20]; ToNumber: Code[20]);
     begin
