@@ -17,7 +17,7 @@ codeunit 50100 "CSD Seminar-Post"
         SeminarRegHeader.TestField(Duration);
         SeminarRegHeader.TestField("Instructor Resource No.");
         SeminarRegHeader.TestField("Room Resource No.");
-        SeminarRegHeader.TestField(Status, SeminarRegHeader.Status::Closed);
+        //SeminarRegHeader.TestField(Status, SeminarRegHeader.Status::Closed);
 
         SeminarRegLine.Reset;
         SeminarRegLine.SetRange("Document No.", SeminarRegHeader."No.");
