@@ -14,19 +14,19 @@ table 50140 "CSD Seminar Cue"
         {
             Caption = 'Planned';
             FieldClass = FlowField;
-            CalcFormula = Count("CSD Posted Seminar Reg. Header" where(Status = Const(Planning)));
+            CalcFormula = Count("CSD Seminar Reg. Header" where(Status = Const(Planning)));
         }
         field(30; "Registered"; Integer)
         {
             Caption = 'Registered';
             FieldClass = FlowField;
-            CalcFormula = Count("CSD Posted Seminar Reg. Header" where(Status = Const(Registration)));
+            CalcFormula = Count("CSD Seminar Reg. Header" where(Status = Const(Registration)));
         }
         field(40; "Closed"; Integer)
         {
             Caption = 'Closed';
             FieldClass = FlowField;
-            CalcFormula = Count("CSD Posted Seminar Reg. Header" where(Status = Const(Closed)));
+            CalcFormula = Count("CSD Seminar Reg. Header" where(Status = Const(Closed)));
         }
     }
 

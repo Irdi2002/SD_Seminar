@@ -5,6 +5,8 @@ table 50110 "CSD Seminar Reg. Header"
     //     - Created new table
 
     Caption = 'Seminar Registration Header';
+    DrillDownPageId = "CSD Seminar Registration List";
+    LookupPageId = "CSD Seminar Registration List";
 
     fields
     {

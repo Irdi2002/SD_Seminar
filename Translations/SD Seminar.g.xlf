@@ -1378,6 +1378,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page CSD Seminar Manager RoleCenter - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 104284545 - Control 4197107925 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CSD Seminar Manager Activity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CSD Seminar Manager RoleCenter - Control Activities - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 104284545 - Control 3331709780 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CSD My Seminars</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CSD Seminar Manager RoleCenter - Control MySeminars - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 104284545 - Action 2558695303 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sales Invoice</source>
           <note from="Developer" annotates="general" priority="2"></note>

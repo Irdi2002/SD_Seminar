@@ -13,22 +13,24 @@ page 50142 "CSD Seminar Manager RoleCenter"
             {
                 part(Activities; "CSD Seminar Manager Activities")
                 {
-
+                    ApplicationArea = All;
+                    Caption = 'CSD Seminar Manager Activity';
                 }
                 part(MySeminars; "CSD My Seminars")
                 {
-
+                    ApplicationArea = All;
+                    Caption = 'CSD My Seminars';
                 }
             }
             group(Column2)
             {
                 part(MyCostumers; "My Customers")
                 {
-
+                    ApplicationArea = All;
                 }
                 systempart(MyNotifications; MyNotes)
                 {
-
+                    ApplicationArea = All;
                 }
                 part(ReportInbox; "Report Inbox Part")
                 {
@@ -144,6 +146,7 @@ page 50142 "CSD Seminar Manager RoleCenter"
         {
             action(NewSeminarRegistration)
             {
+                ApplicationArea = All;
                 Caption = 'Seminar Registration';
                 Image = NewTimesheet;
                 RunObject = Page "CSD Seminar Registration";
@@ -151,6 +154,7 @@ page 50142 "CSD Seminar Manager RoleCenter"
             }
             action(NewSalesInvoice)
             {
+                ApplicationArea = All;
                 Caption = 'Sales Invoice';
                 Image = NewSalesInvoice;
                 RunObject = Page "Sales Invoice";
@@ -161,6 +165,7 @@ page 50142 "CSD Seminar Manager RoleCenter"
         {
             action(CreateInvoices)
             {
+                ApplicationArea = All;
                 Caption = 'Create Invoices';
                 Image = CreateJobSalesInvoice;
                 RunObject = report "Create Seminar Invoices";
@@ -168,6 +173,7 @@ page 50142 "CSD Seminar Manager RoleCenter"
 
             action(Navigate)
             {
+                ApplicationArea = All;
                 Caption = 'Navigate';
                 Image = Navigate;
                 RunObject = Page Navigate;
