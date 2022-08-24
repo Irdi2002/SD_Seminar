@@ -28,6 +28,12 @@ table 50140 "CSD Seminar Cue"
             FieldClass = FlowField;
             CalcFormula = Count("CSD Seminar Reg. Header" where(Status = Const(Closed)));
         }
+        field(50; "Posted"; Integer)
+        {
+            Caption = 'Posted';
+            FieldClass = FlowField;
+            CalcFormula = Count("CSD Posted Seminar Reg. Header" where(Status = Const(Closed)));
+        }
     }
 
     keys

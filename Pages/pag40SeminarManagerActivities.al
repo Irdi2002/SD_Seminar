@@ -40,6 +40,13 @@ page 50140 "CSD Seminar Manager Activities"
                     ApplicationArea = All;
                 }
             }
+            cuegroup("Posted Seminars")
+            {
+                field(Posted; Rec.Posted)
+                {
+                    ApplicationArea = All;
+                }
+            }
         }
     }
 
