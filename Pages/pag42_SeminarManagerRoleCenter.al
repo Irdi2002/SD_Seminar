@@ -34,7 +34,7 @@ page 50142 "CSD Seminar Manager RoleCenter"
                 }
                 part(ReportInbox; "Report Inbox Part")
                 {
-
+                    ApplicationArea = All;
                 }
             }
         }
