@@ -1,4 +1,4 @@
-report 50101 "CSD SeminarRegParticipantList"
+report 60101 "CSD SeminarRegParticipantList"
 {
     Caption = 'Seminar Reg.-Participant List';
     UsageCategory = ReportsAndAnalysis;

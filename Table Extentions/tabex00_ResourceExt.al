@@ -1,4 +1,4 @@
-tableextension 50100 "CSD ResourceExt" extends Resource
+tableextension 60100 "CSD ResourceExt" extends Resource
 
 // CDS1.00 - 2018-01-01 - D. E. Veloper
 

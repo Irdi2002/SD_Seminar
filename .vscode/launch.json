@@ -7,10 +7,10 @@
             //"schemaUpdateMode": "ForceSync",
             "type": "al",
             "environmentType": "OnPrem",
-            "server": "http://10.55.52.66:2020/BC200/",
-            "serverInstance": "BC200",
+            "server": "http://10.55.52.66:2020/BC190/",
+            "serverInstance": "BC190",
             "authentication": "UserPassword",
-            "port": 2049,
+            "port": 9049,
             "breakOnError": true,
             "launchBrowser": true
             

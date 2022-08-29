@@ -1,4 +1,4 @@
-table 50112 "CSD Seminar Charge"
+table 60112 "CSD Seminar Charge"
 {
     // CSD1.00 - 2018-01-01 - D. E. Veloper
     //   Chapter 6 - Lab 1
@@ -65,7 +65,7 @@ table 50112 "CSD Seminar Charge"
                 end;
             end;
         }
-        field(5; Description; Text[50])
+        field(5; Description; Text[60])
         {
             Caption = 'Description';
         }

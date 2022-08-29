@@ -1,11 +1,11 @@
-page 50102 "CSD Seminar List"
+page 60102 "CSD Seminar List"
 {
     Caption = 'Seminar List';
     Editable = false;
     PageType = List;
     UsageCategory = Lists;
     SourceTable = "CSD Seminar";
-    CardPageId = 50101;
+    CardPageId = 60101;
     ApplicationArea = All;
     layout
     {

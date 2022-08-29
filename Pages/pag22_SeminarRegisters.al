@@ -1,4 +1,4 @@
-page 50122 "CSD Seminar Registers"
+page 60122 "CSD Seminar Registers"
 {
     PageType = List;
     ApplicationArea = All;

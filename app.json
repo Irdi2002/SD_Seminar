@@ -17,8 +17,8 @@
   "features": ["TranslationFile"],
   "idRanges": [
     {
-      "from": 50100,
-      "to": 50149
+      "from": 60100,
+      "to": 60149
     }
   ],
   "resourceExposurePolicy": {

@@ -1,4 +1,4 @@
-page 50134 "CSD Posted Seminar Reg."
+page 60134 "CSD Posted Seminar Reg."
 {
     // CSD1.00 - 2018-01-01 - D. E. Veloper
     //   Chapter 7 - Lab 3
@@ -63,7 +63,7 @@ page 50134 "CSD Posted Seminar Reg."
                     ApplicationArea = All;
                 }
             }
-            part(SeminarRegistrationLines; 50135)
+            part(SeminarRegistrationLines; 60135)
             {
                 SubPageLink = "Document No." = Field("No.");
             }
@@ -120,7 +120,7 @@ page 50134 "CSD Posted Seminar Reg."
         }
         area(factboxes)
         {
-            part("CSD Seminar Details FactBox"; 50117)
+            part("CSD Seminar Details FactBox"; 60117)
             {
                 SubPageLink = "No." = Field("Seminar No.");
             }
@@ -151,7 +151,7 @@ page 50134 "CSD Posted Seminar Reg."
                 {
                     Caption = 'Co&mments';
                     Image = Comment;
-                    RunObject = Page 50106;
+                    RunObject = Page 60106;
                     RunPageLink = "No." = Field("No.");
                     RunPageView = where("Table Name" = const("Posted Seminar Reg. Header"));
                     ApplicationArea = All;
@@ -160,7 +160,7 @@ page 50134 "CSD Posted Seminar Reg."
                 {
                     Caption = '&Charges';
                     Image = Costs;
-                    RunObject = Page 50139;
+                    RunObject = Page 60139;
                     RunPageLink = "Document No." = Field("No.");
                     ApplicationArea = All;
                 }

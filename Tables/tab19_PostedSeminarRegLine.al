@@ -1,4 +1,4 @@
-table 50119 "CSD Posted Seminar Reg Line"
+table 60119 "CSD Posted Seminar Reg Line"
 // CSD1.00 - 2018-01-01 - D. E. Veloper
 //   Chapter 6 - Lab 1-5
 //     - Created new table

@@ -1,4 +1,4 @@
-enum 50101 "CSD Seminar Type"
+enum 60101 "CSD Seminar Type"
 {
     Extensible = true;
 

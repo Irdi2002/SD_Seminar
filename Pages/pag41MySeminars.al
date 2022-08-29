@@ -1,4 +1,4 @@
-page 50141 "CSD My Seminars"
+page 60141 "CSD My Seminars"
 {
     Caption = 'My Seminars';
     PageType = ListPart;

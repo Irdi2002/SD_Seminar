@@ -1,4 +1,4 @@
-page 50121 "CSD Seminar Ledger Entries"
+page 60121 "CSD Seminar Ledger Entries"
 {
     PageType = List;
     ApplicationArea = All;

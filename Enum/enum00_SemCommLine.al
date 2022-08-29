@@ -1,4 +1,4 @@
-enum 50100 "Table Name"
+enum 60100 "Table Name"
 {
     Extensible = true;
 

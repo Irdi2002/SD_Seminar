@@ -1,4 +1,4 @@
-table 50140 "CSD Seminar Cue"
+table 60140 "CSD Seminar Cue"
 {
     Caption = 'Seminar Cue';
     DataClassification = ToBeClassified;
@@ -28,7 +28,7 @@ table 50140 "CSD Seminar Cue"
             FieldClass = FlowField;
             CalcFormula = Count("CSD Seminar Reg. Header" where(Status = Const(Closed)));
         }
-        field(50; "Posted"; Integer)
+        field(60; "Posted"; Integer)
         {
             Caption = 'Posted';
             FieldClass = FlowField;

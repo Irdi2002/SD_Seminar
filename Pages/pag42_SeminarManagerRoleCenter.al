@@ -1,4 +1,4 @@
-page 50142 "CSD Seminar Manager RoleCenter"
+page 60142 "CSD Seminar Manager RoleCenter"
 {
     Caption = 'Seminar Manager RoleCenter';
     PageType = RoleCenter;

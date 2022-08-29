@@ -1,4 +1,4 @@
-enum 50105 "Sem. Jou. Entry Type"
+enum 60105 "Sem. Jou. Entry Type"
 {
     Extensible = true;
 

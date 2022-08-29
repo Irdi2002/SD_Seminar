@@ -1,4 +1,4 @@
-page 50124 "CSD Seminar Charges"
+page 60124 "CSD Seminar Charges"
 {
     // CSD1.00 - 2018-01-01 - D. E. Veloper
     //   Chapter 6 - Lab 1

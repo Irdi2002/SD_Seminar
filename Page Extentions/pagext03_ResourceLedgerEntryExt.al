@@ -1,4 +1,4 @@
-pageextension 50108 "CSD ResourceLedgerEntryExt" extends "Resource Ledger Entries"
+pageextension 60108 "CSD ResourceLedgerEntryExt" extends "Resource Ledger Entries"
 {
     layout
     {

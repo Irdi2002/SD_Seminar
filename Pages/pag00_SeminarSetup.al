@@ -1,4 +1,4 @@
-page 50100 "CSD Seminar Setup"
+page 60100 "CSD Seminar Setup"
 {
     Caption = 'Seminar Setup';
     InsertAllowed = false;

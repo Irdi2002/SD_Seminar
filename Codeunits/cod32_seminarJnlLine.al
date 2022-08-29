@@ -1,4 +1,4 @@
-codeunit 50132 "CSD Seminar Jnl.-Post Line"
+codeunit 60132 "CSD Seminar Jnl.-Post Line"
 {
     TableNo = "CSD Seminar Journal Line";
 

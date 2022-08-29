@@ -1,4 +1,4 @@
-table 50101 "CSD Seminar"
+table 60101 "CSD Seminar"
 {
     Caption = 'Seminar';
     LookupPageID = "CSD Seminar List";
@@ -26,7 +26,7 @@ table 50101 "CSD Seminar"
 
         }
 
-        field(20; "Name"; Text[50])
+        field(20; "Name"; Text[60])
         {
             Caption = 'Name';
 
@@ -56,7 +56,7 @@ table 50101 "CSD Seminar"
 
         }
 
-        field(60; "Search Name"; Code[50])
+        field(60; "Search Name"; Code[60])
         {
             Caption = 'Search Name';
 

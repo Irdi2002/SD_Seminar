@@ -1,4 +1,4 @@
-table 50110 "CSD Seminar Reg. Header"
+table 60110 "CSD Seminar Reg. Header"
 {
     // CSD1.00 - 2018-01-01 - D. E. Veloper
     //   Chapter 6 - Lab 1-3 & Lab 1-4
@@ -66,7 +66,7 @@ table 50110 "CSD Seminar Reg. Header"
                 end;
             end;
         }
-        field(4; "Seminar Name"; Text[50])
+        field(4; "Seminar Name"; Text[60])
         {
             Caption = 'Seminar Name';
         }

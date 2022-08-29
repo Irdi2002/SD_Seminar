@@ -1,10 +1,10 @@
-codeunit 50100 "CSD Seminar-Post"
+codeunit 60100 "CSD Seminar-Post"
 {
     // CSD1.00 - 2018-01-01 - D. E. Veloper
     //   Chapter 7 - Lab 5-2
     //     - Created new codeunit
 
-    TableNo = 50110;
+    TableNo = 60110;
 
     trigger OnRun();
     begin

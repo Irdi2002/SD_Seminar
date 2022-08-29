@@ -1,11 +1,11 @@
-table 50141 "CSD My Seminar"
+table 60141 "CSD My Seminar"
 {
     Caption = 'My Seminar';
     DataClassification = ToBeClassified;
 
     fields
     {
-        field(10; "User ID"; Code[50])
+        field(10; "User ID"; Code[60])
         {
             Caption = 'User ID';
             TableRelation = User;

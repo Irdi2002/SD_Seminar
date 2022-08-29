@@ -1,4 +1,4 @@
-codeunit 50102 "CSD SeminarRegPrinted"
+codeunit 60102 "CSD SeminarRegPrinted"
 {
     TableNo = "CSD Seminar Reg. Header";
     trigger OnRun()

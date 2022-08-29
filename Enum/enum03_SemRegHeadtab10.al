@@ -1,4 +1,4 @@
-enum 50103 "Sem. Reg. Header Status"
+enum 60103 "Sem. Reg. Header Status"
 {
     Extensible = true;
 

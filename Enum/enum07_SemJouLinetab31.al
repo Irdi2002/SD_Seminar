@@ -1,4 +1,4 @@
-enum 50108 "Sem. Jou. Source Type"
+enum 60108 "Sem. Jou. Source Type"
 {
     Extensible = true;
 

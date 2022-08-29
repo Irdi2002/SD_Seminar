@@ -1,4 +1,4 @@
-codeunit 50139 "CSD EventSubscriptions"
+codeunit 60139 "CSD EventSubscriptions"
 {
     [EventSubscriber(ObjectType::Codeunit, 212, 'OnBeforeResLedgEntryInsert', '', true, true)]
     local procedure PostResJnlLineOnBeforeLedgerEntryInsert

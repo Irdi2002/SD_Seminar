@@ -1,4 +1,4 @@
-table 50131 "CSD Seminar Journal Line"
+table 60131 "CSD Seminar Journal Line"
 {
     // CSD1.00 - 2018-01-01 - D. E. Veloper
     //   Chapter 7 - Lab 1
@@ -43,7 +43,7 @@ table 50131 "CSD Seminar Journal Line"
         {
             Caption = 'Document No.';
         }
-        field(8; Description; Text[50])
+        field(8; Description; Text[60])
         {
             Caption = 'Description';
         }
@@ -81,7 +81,7 @@ table 50131 "CSD Seminar Journal Line"
             Caption = 'Participant Contact No.';
             TableRelation = Contact;
         }
-        field(17; "Participant Name"; Text[50])
+        field(17; "Participant Name"; Text[60])
         {
             Caption = 'Participant Name';
         }

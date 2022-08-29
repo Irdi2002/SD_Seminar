@@ -1,4 +1,4 @@
-page 50140 "CSD Seminar Manager Activities"
+page 60140 "CSD Seminar Manager Activities"
 {
     PageType = ListPart;
     ApplicationArea = All;

@@ -1,4 +1,4 @@
-table 50105 "CSD Seminar Report Selections"
+table 60105 "CSD Seminar Report Selections"
 {
     // CSD1.00 - 2018-01-01 - D. E. Veloper
     //   Chapter 9 - Lab 1

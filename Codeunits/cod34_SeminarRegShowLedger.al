@@ -1,4 +1,4 @@
-codeunit 50134 "CSD Seminar Reg.-Show Ledger"
+codeunit 60134 "CSD Seminar Reg.-Show Ledger"
 {
     TableNo = "CSD Seminar Register";
 

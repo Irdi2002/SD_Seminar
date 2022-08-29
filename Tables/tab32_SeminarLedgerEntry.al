@@ -1,4 +1,4 @@
-table 50132 "CSD Seminar Ledger Entry"
+table 60132 "CSD Seminar Ledger Entry"
 {
     // CSD1.00 - 2018-01-01 - D. E. Veloper
     //   Chapter 7 - Lab 1
@@ -37,7 +37,7 @@ table 50132 "CSD Seminar Ledger Entry"
         {
             Caption = 'Document No.';
         }
-        field(7; Description; Text[50])
+        field(7; Description; Text[60])
         {
             Caption = 'Description';
         }
@@ -138,7 +138,7 @@ table 50132 "CSD Seminar Ledger Entry"
             Caption = 'No. Series';
             TableRelation = "No. Series";
         }
-        field(28; "User ID"; Code[50])
+        field(28; "User ID"; Code[60])
         {
             TableRelation = user where("User Name" = field("User ID"));
             ValidateTableRelation = false;

@@ -1,4 +1,4 @@
-page 50101 "CSD Seminar Card"
+page 60101 "CSD Seminar Card"
 {
     PageType = Card;
     SourceTable = "CSD Seminar";

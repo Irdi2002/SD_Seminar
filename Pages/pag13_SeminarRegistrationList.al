@@ -1,4 +1,4 @@
-page 50113 "CSD Seminar Registration List"
+page 60113 "CSD Seminar Registration List"
 {
     // CSD1.00 - 2018-01-01 - D. E. Veloper
     //   Chapter 6 - Lab 3
@@ -76,7 +76,7 @@ page 50113 "CSD Seminar Registration List"
                 {
                     Caption = 'Co&mments';
                     Image = Comment;
-                    RunObject = Page 50106;
+                    RunObject = Page 60106;
                     RunPageLink = "No." = Field("No.");
                     RunPageView = where("Table Name" = Const("Seminar Registration Header"));
                     ApplicationArea = All;
@@ -85,7 +85,7 @@ page 50113 "CSD Seminar Registration List"
                 {
                     Caption = '&Charges';
                     Image = Costs;
-                    RunObject = Page 50124;
+                    RunObject = Page 60124;
                     RunPageLink = "Document No." = Field("No.");
                     ApplicationArea = All;
                 }

@@ -1,4 +1,4 @@
-table 50133 "CSD Seminar Register"
+table 60133 "CSD Seminar Register"
 {
     // CSD1.00 - 2018-01-01 - D. E. Veloper
     //   Chapter 7 - Lab 1
@@ -31,7 +31,7 @@ table 50133 "CSD Seminar Register"
             Caption = 'Source Code';
             TableRelation = "Source Code";
         }
-        field(6; "User ID"; Code[50])
+        field(6; "User ID"; Code[60])
         {
             Caption = 'User ID';
             TableRelation = User."User Name";

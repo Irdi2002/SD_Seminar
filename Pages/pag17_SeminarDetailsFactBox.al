@@ -1,4 +1,4 @@
-page 50117 "CSD Seminar Details FactBox"
+page 60117 "CSD Seminar Details FactBox"
 {
     // CSD1.00 - 2018-01-01 - D. E. Veloper
     //   Chapter 6 - Lab 2

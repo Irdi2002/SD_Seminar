@@ -1,4 +1,4 @@
-table 50118 "CSD Posted Seminar Reg. Header"
+table 60118 "CSD Posted Seminar Reg. Header"
 {
     // CSD1.00 - 2018-01-01 - D. E. Veloper
     //   Chapter 6 - Lab 1-3 & Lab 1-4
@@ -24,7 +24,7 @@ table 50118 "CSD Posted Seminar Reg. Header"
 
             TableRelation = "CSD Seminar";
         }
-        field(4; "Seminar Name"; Text[50])
+        field(4; "Seminar Name"; Text[60])
         {
             Caption = 'Seminar Name';
         }
@@ -143,7 +143,7 @@ table 50118 "CSD Posted Seminar Reg. Header"
             TableRelation = "No. Series".Code;
         }
 
-        field(28; "User Id"; Code[50])
+        field(28; "User Id"; Code[60])
         {
             //Fq 296 thote qe duhet te shtojme OnLookup();
             Caption = 'User Id';
