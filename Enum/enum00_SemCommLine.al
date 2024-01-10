@@ -9,7 +9,7 @@ enum 60100 "Table Name"
 
     value(1; "Seminar")
     {
-        Caption = 'Seminar';
+        Caption = 'Seminar Prove Ne Code Editor';
     }
 
     value(2; "Seminar Registration Header")
